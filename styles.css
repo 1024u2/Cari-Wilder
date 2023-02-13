@@ -1,0 +1,52 @@
+/* The code from lines 2-4 puts the title of the website in the center */
+.title{ 
+    text-align:center;
+}
+/* The code from lines 6-10 adds the black background-color and white text color for each section heading. If you want to change the color of the section headers, change this code!*/
+div {
+    color:magenta;
+    text-align: center;
+    background-color:#28042b;
+}
+
+.pink {
+color:#2b041d;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+  text-shadow: 2px 7px #dd42f5;
+}
+
+h1 {
+  text-shadow: 2px 4px #ff0000;
+}
+
+img {
+  border-radius: 50%;
+    width: auto;
+    border: 10px #f542ce solid;
+    padding:10px;
+    width: 45%;
+    margin: 5px;
+
+}
+
+.picture {
+    display:flex;
+    justify-content:center;
+}
+.goals {
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    
+}
+
+.goals li {
+  margin: 0 8px;   
+    border:3px #f542ce solid;
+}
